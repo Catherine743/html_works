@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body style="background-color: bisque;">
+    <h1>Student Registration Form</h1>
+    <div>
+        <label for="Roll no">Roll no. :</label>
+        <input type="number" id="Roll no">
+    </div>
+
+    <div>
+        <label for="Name">Student name :</label>
+        <input type="text" placeholder="First Name" id="Name">
+        <label for=""> &hyphen;</label>
+        <input type="text" placeholder="Last Name" id="Name">
+    </div>
+
+    <div>
+        <label for="Father's name">Father's name :</label>
+        <input type="text" id="Father's name">
+    </div>
+
+    <div>
+        <label for="Date">Date of birth :</label>
+        <input type="number" placeholder="Day" id="Date">
+        <label for=""> &hyphen;</label>
+        <input type="number" placeholder="Month" id="Date">
+        <label for=""> &hyphen;</label>
+        <input type="number" placeholder="Year" id="Date">
+        <label for="">(DD-MM-YYYY)</label>
+    </div>
+
+    <div>
+        <label for="Mobile">Mobile no. :</label>
+        <label for="">+91 &hyphen;</label>
+        <input type="text" id="Mobile">
+    </div>
+
+    <div>
+        <label for="Email">Email id :</label>
+        <input type="email" id="Email">
+    </div>
+
+    <div>
+        <label for="Password">Password :</label>
+        <input type="password" id="Password">
+    </div>
+
+    <div>
+        <label for="">Gender :</label>
+        <input type="radio" name="Gender"> <label for="">Male</label>
+        <input type="radio" name="Gender"> <label for="">Female</label>
+    </div>
+
+    <div>
+        <label for="">Department :</label>
+        <input type="checkbox"> <label for="">CSE</label>
+        <input type="checkbox"> <label for="">IT</label>
+        <input type="checkbox"> <label for="">ECE</label>
+        <input type="checkbox"> <label for="">Civil</label>
+        <input type="checkbox"> <label for="">Mech</label>
+    </div>
+
+    <div>
+        <label for="">Course :</label>
+        <select name="" id="">
+            <option value="">----------Select Current Course's----------</option>
+            <option value="Mearn">Mearn Stack - Angular & React</option>
+            <option value="Python">Python Django</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Testing">Software Testing</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="">Student photo :</label>
+        <input type="file" accept="image/*">
+    </div>
+
+    <div>
+        <label for="City">City :</label>
+        <input type="text" id="City">
+    </div>
+
+    <div>
+        <label for="">Address :</label>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+    </div>
+
+    <button>Register</button>
+</body>
+</html>
